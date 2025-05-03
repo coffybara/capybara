@@ -1,5 +1,5 @@
 steps:
-    - name: 'northamerica-northeast1-docker.pkg.dev/capybara-456403/cloud-functions/cloud-sdk'
+    - name: 'us-docker.pkg.dev/cloudbuild/cloud-sdk:latest'
       entrypoint: 'gcloud'
       args:
         - 'functions'
