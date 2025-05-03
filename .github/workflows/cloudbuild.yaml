@@ -10,3 +10,5 @@ steps:
         - '--entry-point=helloWorld'
         - '--runtime=nodejs20'
         - '--trigger-topic=kubernetes_cluster'
+  options:
+    defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
