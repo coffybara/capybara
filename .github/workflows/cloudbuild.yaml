@@ -1,5 +1,5 @@
 steps:
-    - name: 'gcr.io/google-cloud-sdk'
+    - name: 'us-docker.pkg.dev/capybara-456403/cloud-functions/cloud-sdk'
       entrypoint: 'gcloud'
       args:
         - 'functions'
