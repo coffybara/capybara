@@ -1,0 +1,13 @@
+steps:
+- name: 'gcr.io/google-cloud-sdk'
+    entrypoint: 'gcloud'
+    args:
+    - 'functions'
+    - 'deploy'
+    - 'helloWorld'
+    - '--region=us-east5-a'
+    - '--source=server/src/middleware'
+    - '--entry-point=helloWorld'
+    - '--runtime=nodejs20'
+    - '--trigger-topic=kubernetes_cluster'
+    
